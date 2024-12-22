@@ -1,0 +1,35 @@
+{
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  },
+  "name": "gif_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "follow-redirects": "^1.15.9",
+    "fs": "^0.0.1-security",
+    "net": "^1.0.2",
+    "next": "15.0.3",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "request": "^2.88.2",
+    "tls": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
